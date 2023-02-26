@@ -1,0 +1,43 @@
+.main-hero {
+  background-image: url("../img/main-hero-bg.jpg");
+}
+
+.main-hero__container {
+  padding-top: 45px;
+  padding-bottom: 105px;
+}
+
+.main-hero__inner {
+  padding: 130px 0;
+}
+
+.main-hero__content {
+
+}
+
+.main-hero__text {
+  color: var(--light-color);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.main-hero__title {
+  color: var(--acc-color);
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  > div {
+    color: var(--light-color);
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: none;
+  }
+}
+
+.main-hero__title-light {
+  font-weight: 500;
+}
+
+.main-hero__advantages {
+  margin-top: 140px;
+}

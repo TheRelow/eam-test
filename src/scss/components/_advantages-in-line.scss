@@ -1,0 +1,43 @@
+.advantages-in-line {
+  position: relative;
+  color: var(--light-color);
+  counter-reset: advantages-in-line;
+  &:before, &:after {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    display: block;
+    height: 3px;
+    width: calc(100vw - var(--container-width));
+    background-color: var(--red-color);
+    content: '';
+  }
+  &:after {
+    left: auto;
+    right: 100%;
+  }
+}
+
+.advantages-in-line__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px 35px;
+}
+
+.advantages-in-line__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  counter-increment: advantages-in-line;
+  &:before {
+    //content: '';
+    display: block;
+    width: 35px;
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--gray-color);
+    content: counter(advantages-in-line);
+  }
+}
