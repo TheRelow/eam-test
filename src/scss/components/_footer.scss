@@ -1,0 +1,35 @@
+.footer{
+    background-color: #2E2E2E;
+}
+
+// .footer__inner{
+//     display: flex;
+//     text-align: center;
+// }
+
+.footer__content{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav{
+    display: flex;
+}
+
+.footer__info-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.footer__info{
+    margin: 0;
+    color: var(--light-color);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.footer__info-bald{
+    font-weight: 800;
+}

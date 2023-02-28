@@ -1,0 +1,38 @@
+.pic-text__container{
+    margin: 79px 100px 144px 323px;
+}
+
+.pic-text__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic-text__title{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.pic-text__title-light{
+    font-weight: 400;
+}
+
+.pic-text__list-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.bottom-pic-text__container{
+    margin: 97px 275px 37px 0;
+}
+
+.bottom-pic-text__heading-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.bottom-pic-text__content{
+    flex-direction: row-reverse;
+}

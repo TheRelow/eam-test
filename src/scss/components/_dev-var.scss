@@ -1,0 +1,48 @@
+.dev-var{
+    background-image: url(../../img/dv-block-bgc.jpg);
+}
+
+.dev-var__container{
+    margin-top: 63px;
+    
+}
+
+.dev-var__inner{
+    padding: 90px 0;
+}
+
+.dev-var__title{
+    margin: 0;
+    text-align: center;
+    color: var(--light-color);
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 18px;
+}
+
+.dev-var__title-light{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.dev-var__list{
+    display: flex;
+    justify-content: center;
+    margin-top: 119px;
+    gap: 85px;
+}
+
+.dev-var__list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev-var__list-text{
+    text-align: center;
+    color: var(--light-color);
+    font-size: 18px;
+    line-height: 20px;
+}
