@@ -4,12 +4,12 @@
 // }
 
 .main-form__inner{
-    background-color: var(--form-bc);
+    background-color: var(--form-bg-color);
     border-radius: 10px;
 }
 
-.main-form__title{
-    color: var(--form-title);
+.main-form__heading-title{
+    color: var(--form-title-color);
     text-transform: uppercase;
     padding: 37px 29px 10px 36px;
     font-weight: 700;
@@ -23,7 +23,7 @@
     font-weight: 400;
 }
 
-.main-form__text{
+.main-form__heading-text{
     color: var(--light-color);
     margin: 0 151px 0 36px;
     position: relative;
@@ -42,7 +42,6 @@
 }
 
 .main-form__bottom-wrapper{
-    display: flex;
     margin-top: 59px;
     padding: 0 29px 39px 36px;
 }
@@ -55,13 +54,12 @@
 
 .main-form__form-input{
     border-radius: 5px;
-    padding: 0 10px 0;
+    padding: 18px 15px 18px 55px;
     &::placeholder{
         color: #000000;
         font-weight: 500;
         font-size: 18px;
         line-height: 18px;
-        padding: 24px 119px 19px 55px;
     }
 }
 
@@ -81,18 +79,13 @@
     width: 190px;
     height: 61px;
     margin-right: 14px;
-    &::placeholder{
-        padding: 23px 58px 20px 55px;
-    }
 }
 
 .main-form__form-input-qty{
     width: 190px;
     height: 61px;
     margin-right: 16px;
-    &::placeholder{
-        padding: 23px 10px 20px 40px;
-    }
+    padding-left: 45px;
 }
 
 .main-form__form-input-email{
@@ -105,7 +98,8 @@
     flex-direction: column;
 }
 
-.main-form__bottom-btn{
+.main-form__form-btn{
+    margin-left: 19px;
     width: 393px;
     height: 61px;
     background: rgb(255,153,0);
@@ -117,8 +111,9 @@
     line-height: 18px;
 }
 
-.main-form__bottom-text{
+.main-form__text{
     text-align: center;
+    margin-left: 75px;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -127,43 +122,3 @@
         text-decoration: underline;
     }
 }
-
-.main-form__form-input-icon{
-    position: absolute;
-    cursor: text;
-}
-
-.main-form__form-btn{
-    &-departure{
-        left: 22px;
-        top: 17px;
-        width: 26px;
-        height: 28px;
-    }
-    &-arrival{
-        right: 363px;
-        top: 17px;
-        width: 26px;
-        height: 28px;
-    }
-    &-weight{
-        left: 22px;
-        bottom: 14px;
-        width: 26px;
-        height: 28px;
-    }
-    &-pallet{
-        right: 577px;
-        bottom: 14px;
-        width: 26px;
-        height: 28px;
-    }
-    &-email{
-        right: 363px;
-        bottom: 14px;
-        width: 26px;
-        height: 28px;
-    }
-}
-
-

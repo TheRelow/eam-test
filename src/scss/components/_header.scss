@@ -8,20 +8,21 @@
     text-align: center;
 }
 
-.menu__burger{
+.burger{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3px 4px;
     align-items: center;
     position: relative;
     margin-right: 5px;
-    &-btn{
-        background-color: var(--btn-color);
-        width: 4px;
-        height: 4px;
-        display: block;
-        border-radius: 50%;
-    }
+}
+
+.burger-btn{
+    background-color: var(--btn-color);
+    width: 4px;
+    height: 4px;
+    display: block;
+    border-radius: 50%;
 }
 
 .menu{
