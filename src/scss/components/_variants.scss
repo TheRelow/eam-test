@@ -1,17 +1,17 @@
-.dev-var{
+.variants{
     background-image: url(../../img/dv-block-bgc.jpg);
 }
 
-.dev-var__container{
+.variants__container{
     margin-top: 63px;
     
 }
 
-.dev-var__inner{
+.variants__inner{
     padding: 90px 0;
 }
 
-.dev-var__title{
+.variants__title{
     margin: 0;
     text-align: center;
     color: var(--light-color);
@@ -20,27 +20,27 @@
     line-height: 18px;
 }
 
-.dev-var__title-light{
+.variants__title-light{
     font-weight: 500;
     font-size: 22px;
     line-height: 24px;
 }
 
-.dev-var__list{
+.variants__list{
     display: flex;
     justify-content: center;
     margin-top: 119px;
     gap: 85px;
 }
 
-.dev-var__list-item{
+.variants__list-item{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.dev-var__list-text{
+.variants__list-text{
     text-align: center;
     color: var(--light-color);
     font-size: 18px;
