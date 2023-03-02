@@ -67,18 +67,27 @@
     width: 393px;
     height: 61px;
     margin: 0 17px 13px 0;
+    background-image: url(../../img/Arrival.png);
+    background-repeat: no-repeat;
+    background-position: 16px 15px;
 }
 
 .main-form__form-input-put{
     width: 393px;
     height: 61px;
     margin-bottom: 13px;
+    background-image: url(../../img/Departure.png);
+    background-repeat: no-repeat;
+    background-position: 16px 15px;
 }
 
 .main-form__form-input-weight{
     width: 190px;
     height: 61px;
     margin-right: 14px;
+    background-image: url(../../img/Weight.png);
+    background-repeat: no-repeat;
+    background-position: 14px 15px;
 }
 
 .main-form__form-input-qty{
@@ -86,11 +95,17 @@
     height: 61px;
     margin-right: 16px;
     padding-left: 45px;
+    background-image: url(../../img/pallet.png);
+    background-repeat: no-repeat;
+    background-position: 10px 15px;
 }
 
 .main-form__form-input-email{
     width: 393px;
     height: 61px;
+    background-image: url(../../img/Email.png);
+    background-repeat: no-repeat;
+    background-position: 16px 15px;
 }
 
 .main-form__bottom-items{

@@ -80,16 +80,5 @@
 .delivery__advantages-in-line{
     margin-top: 49px;
     color: #000000;
-    position: relative;
-    &:before, &:after{
-        position: absolute;
-        background-color: var(--red-color);
-        top: 50%;
-        left: 84%;
-        width: calc(100vw - var(--container-width));
-    }
-    &:after{
-        left: auto;
-        right: 84%;
-    }
 }
+
