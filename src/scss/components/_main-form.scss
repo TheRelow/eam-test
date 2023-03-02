@@ -1,9 +1,12 @@
-// .main-form{
-//     position: relative;
-//     top: -150px;
-// }
+.main-form{
+    position: relative;
+    z-index: 2;
+}
 
 .main-form__inner{
+    position: absolute;
+    width: 1280px;
+    top: -375px;
     background-color: var(--form-bg-color);
     border-radius: 10px;
 }
