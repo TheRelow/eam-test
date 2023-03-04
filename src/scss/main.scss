@@ -5,7 +5,7 @@
 @import "settings";
 
 // подключения компонентов страницы
-@import "./components/header";
+@import "./components/header-index";
 @import "./components/main-hero";
 @import "./components/advantages-in-line";
 @import "./components/main-form";
@@ -14,3 +14,5 @@
 @import "./components/pic-text.scss";
 @import "./components/cargo.scss";
 @import "./components/footer.scss";
+@import "./components/header";
+@import "./components/cabinet-entering";
