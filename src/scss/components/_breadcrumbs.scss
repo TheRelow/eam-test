@@ -1,13 +1,17 @@
-.breadcrumbs{
-    margin-top: 61px;
+.breadcrumbs__menu-container{
+    width: 1087px;
+    padding: 0;
+    margin-top: 95px;
 }
 
 .breadcrumbs__container{
-    width: 1087px;
+    width: 1225px;
     padding: 0;
+    margin-top: 61px;
 }
 
 .breadcrumbs__text{
+    margin: 0;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
