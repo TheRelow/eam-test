@@ -1,0 +1,138 @@
+.company-profile__container{
+    width: 1225px;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.company-profile__inner{
+    background: #EBEBEB;
+    box-shadow: 2px 4px 6px 1px rgba(0, 0, 0, 0.25);
+}
+
+.company-profile__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.company-profile__title{
+    margin: 0;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.company-profile__text{
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #057803;
+}
+
+.company-profile__form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 817px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.company-profile__doc1-img{
+    position: absolute;
+    top: 15px;
+    left: 19px;
+}
+
+.company-profile__phone-img{
+    position: absolute;
+    top: 18px;
+    left: 443px;
+}
+
+.company-profile__doc2-img{
+    position: absolute;
+    left: 19px;
+    top: 105px;
+}
+
+.company-profile__person-img{
+    position: absolute;
+    top: 110px;
+    left: 444px;
+}
+
+.company-profile__adress-img{
+    position: absolute;
+    left: 19px;
+    top: 199px;
+}
+
+.company-profile__email-img{
+    position: absolute;
+    top: 199px;
+    left: 444px;
+}
+
+.company-profile__input{
+    width: 393px;
+    background-color: #FAF8F8;
+    border: none;
+    border-radius: 5px;
+    padding: 22px 10px 21px 58px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &::placeholder{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        color: #646363;
+    }
+}
+
+.company-profile__input-name,
+.company-profile__input-register,
+.company-profile__input-adress{
+    margin-right: 31px;
+    margin-bottom: 30px;
+}
+
+.company-profile__input-tel,
+.company-profile__input-person,
+.company-profile__input-email{
+    margin-bottom: 30px;
+}
+
+.company-profile__btn{
+    width: 393px;
+    background: linear-gradient(268.48deg, #FF4141 6.32%, #FF9900 97.15%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    align-self: center;
+    padding: 22px 0 21px;
+    margin: 51px 212px 15px;
+}
+
+.company-profile__btn-text{
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.company-profile__btn-inf{
+    margin-left: 225px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    & > a{
+        color: inherit;
+        text-decoration: underline;
+    }
+}
