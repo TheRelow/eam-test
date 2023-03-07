@@ -132,12 +132,17 @@
         font-size: 18px;
         line-height: 18px;
     }
+    &:active{
+        .contacts__form-textarea-img{
+            display: none;
+        }
+    }
 }
 
 .contacts__form-textarea-img{
     position: absolute;
     z-index: 3;
-    top: 135px;
+    top: 160px;
     left: 343px;
 }
 
@@ -159,7 +164,7 @@
 .contacts__form-email-img{
     position: absolute;
     z-index: 3;
-    top: 378px;
+    top: 400px;
     left: 15px;
 }
 
