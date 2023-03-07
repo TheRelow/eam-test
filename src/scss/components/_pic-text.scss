@@ -1,11 +1,30 @@
 .pic-text__container{
-    margin: 79px 100px 144px 323px;
-    padding-top: 116px;
+  margin-top: 79px;
+  margin-bottom: 144px;
+  padding-top: 116px;
 }
 
 .pic-text__content{
     display: flex;
     justify-content: space-between;
+}
+
+.pic-text__heading-wrapper {
+  max-width: 42%;
+}
+
+.pic-text__img {
+  position: relative;
+  width: 58%;
+}
+.pic-text__img img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 950px;
+  max-width: none;
+  height: 633px;
+  transform: translateY(-50%);
 }
 
 .pic-text__title{
@@ -25,8 +44,9 @@
 }
 
 .bottom-pic-text__container{
-    margin: 97px 275px 37px 0;
-    padding-top: 0;
+  margin-top: 97px;
+  margin-bottom: 37px;
+  padding-top: 0;
 }
 
 .bottom-pic-text__heading-wrapper{
