@@ -74,36 +74,38 @@
                     </p>
                     <form class="contacts__form">
                         <img class="contacts__form-textarea-img" src="../../img/textarea-icon.png" alt="">
-                        <textarea class="contacts__form-textarea" placeholder="Ваш вопрос или предложение напишите здесь."></textarea>
+                        <textarea class="contacts__form-textarea"
+                            placeholder="Ваш вопрос или предложение напишите здесь."></textarea>
                         <img class="contacts__form-email-img" src="../../img/Email.png" alt="">
                         <input class="contacts__form-email" type="email" placeholder="Ваш E-mail для ответа">
                         <button class="contacts__form-btn btn-reset">
                             <p class="contacts__form-btn-text">отправить</p>
                         </button>
-                    </form>
-                    <div class="contacts__bottom-inf-wrapper">
-                        <div class="contacts__list-files-wrapper">
-                            <p class="contacts__list-files-title">Добавить файл</p>
-                            <ul class="contacts__list-files list-reset">
-                                <li class="contacts__list-files-item">
-                                    <img class="contacts__list-files-img" src="../../img/menu-nav-close.png" alt="">
-                                    <p class="contacts__list-files-text">Имя файла максимум 28 симв...</p>
-                                </li>
-                                <li class="contacts__list-files-item">
-                                    <img class="contacts__list-files-img" src="../../img/menu-nav-close.png" alt="">
-                                    <p class="contacts__list-files-text">Имя файла максимум 28 симв...</p>
-                                </li>
-                                <li class="contacts__list-files-item">
-                                    <img class="contacts__list-files-img" src="../../img/menu-nav-close.png" alt="">
-                                    <p class="contacts__list-files-text">Кол-во файлов максимум 3-и</p>
-                                </li>
-                            </ul>
-                        </div>
+                        <label class="contacts__form-files-upload">
+                            <input class="contacts__form-files" type="file">
+                            Добавить файл
+                        </label>
                         <p class="contacts__form-btn-inf">Нажимая кнопку, Вы даете согласие на
                             <br>
-                            обработку <span>персональных данных</span>
+                            обработку <a>персональных данных</a>
                         </p>
-                    </div>
+                    </form>
+                    <ul class="contacts__list-files list-reset">
+                        <li class="contacts__list-files-item">
+                            <img class="contacts__list-files-img" src="../../img/menu-nav-close.png" alt="">
+                            <p class="contacts__list-files-text">Имя файла максимум 28 симв...</p>
+                        </li>
+                        <li class="contacts__list-files-item">
+                            <img class="contacts__list-files-img" src="../../img/menu-nav-close.png" alt="">
+                            <p class="contacts__list-files-text">Имя файла максимум 28 симв...</p>
+                        </li>
+                        <li class="contacts__list-files-item">
+                            <img class="contacts__list-files-img" src="../../img/menu-nav-close.png" alt="">
+                            <p class="contacts__list-files-text">Кол-во файлов максимум 3-и</p>
+                        </li>
+                    </ul>
+
+
                 </div>
             </div>
         </div>
