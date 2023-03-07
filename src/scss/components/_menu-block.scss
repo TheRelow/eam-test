@@ -1,0 +1,19 @@
+.menu-block {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 72px;
+  background-color: #fff;
+  z-index: 999;
+}
+
+body.menu-opened {
+  overflow: hidden;
+}
+
+body.menu-opened .menu-block {
+  display: block;
+}
