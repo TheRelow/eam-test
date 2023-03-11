@@ -2,9 +2,11 @@
     <div class="breadcrumbs">
         <div class="breadcrumbs__menu-container container">
             <div class="breadcrumbs__inner">
-                <p class="breadcrumbs__text">
-                    Вернуться назад
-                </p>
+                <a href="#" onclick="history.back(-1);">
+                    <p class="breadcrumbs__text">
+                        Вернуться назад
+                    </p>
+                </a>
             </div>
         </div>
     </div>
@@ -19,14 +21,14 @@
                     <input type="email" class="cabinet-entering__form-email" placeholder="Ваш E-mail">
                     <img class="cabinet-entering__form-password-img" src="../../img/password.png" alt="">
                     <input type="password" class="cabinet-entering__form-password" placeholder="Ваш пароль">
-                    <p class="cabinet-entering__form-text">Восстановить пароль?</p>
+                    <a class="cabinet-entering__form-text" href="../../password-changer.html">Восстановить пароль?</a>
                     <button class="cabinet-entering__form-btn btn-reset" type="submit">Войти</button>
                     <p class="cabinet-entering__form-bottom-text">Нажимая кнопку, Вы даете согласие на
                         <br>
-                        обработку <span>персональных данных</span>
+                        обработку <a href="../../data-protection.html">персональных данных</a>
                     </p>
                 </form>
-                <p class="cabinet-entering__text">Нет аккаунта? <b>Зарегистрируйтесь!</b></p>
+                <p class="cabinet-entering__text">Нет аккаунта? <a href="../../company-profile.html">Зарегистрируйтесь!</a></p>
             </div>
             <img class="cabinet-entering__img" src="../../img/cabinet-entering.jpg" alt="">
         </div>
