@@ -1,0 +1,128 @@
+.welcome-page{
+    background-color: #DDDDDD;
+}
+
+.welcome-page__container{
+    max-width: 1280px;
+    padding: 0;
+}
+
+.welcome-page__content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 34px;
+    background-color: #FFFFFF;
+}
+
+.welcome-page__title{
+    margin: 0;
+    padding-left: 67px;
+    padding-right: 97px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.welcome-page__text{
+    margin: 0;
+    margin-top: 14px;
+    padding-left: 67px;
+    padding-right: 97px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.welcome-page__request-btn{
+    align-self: center;
+    margin-top: 21px;
+    margin-bottom: 36px;
+    width: 300px;
+    padding: 16px 10px 13px;
+    background: linear-gradient(268.48deg, #FF4141 6.32%, #FF9900 97.15%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.welcome-page__request-text{
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.welcome-page__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.welcome-page__img{
+    margin: 34px 0;
+}
+
+.welcome-page__list{
+    margin-top: 40px;
+    padding-left: 67px;
+    padding-right: 97px;
+}
+
+.welcome-page__list-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 25px;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        width: 2px;
+        height: 2px;
+        background-color: #000;
+        left: 12px;
+        top: 9px;
+    }
+}
+
+.welcome-page__index-btn{
+    align-self: center;
+    margin-top: 33px;
+    margin-bottom: 31px;
+    width: 300px;
+    padding: 16px 10px 13px;
+    background: linear-gradient(268.48deg, #FF4141 6.32%, #FF9900 97.15%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.welcome-page__index-text{
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.welcome-page__bottom-text-wrapper{
+    background-color: #DDDDDD;
+    margin-top: 23px;
+    padding-top: 43px;
+    padding-bottom: 52px;
+    padding-left: 67px;
+    padding-right: 97px;
+}
+
+.welcome-page__bottom-text{
+    color: #646363;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    & > b{
+        text-decoration: underline;
+    }
+}
